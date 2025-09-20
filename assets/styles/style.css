@@ -53,3 +53,44 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    z-index: 10;
+}
+
+.header .nav-desktop {
+    display: flex;
+}
+
+.header .nav-desktop p {
+    margin-left: 48px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .hero-img img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
